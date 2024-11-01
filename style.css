@@ -1,1 +1,38 @@
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+th {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Cell styling */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+/* Subtle row background for readability */
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* Image styling */
+.hero-image {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
 
