@@ -1,0 +1,44 @@
+
+table {
+    width: 100%;                
+    border-collapse: collapse;  
+    margin: 20px 0;             
+    font-family: Arial, sans-serif;
+}
+
+
+th {
+    background-color: #1E90FF;  
+    color: white;              
+    font-weight: bold;          
+    padding: 12px;              
+    text-align: center;         
+}
+
+
+td {
+    border: 1px solid #ADD8E6; 
+    padding: 12px;              
+    text-align: center;         
+}
+
+
+tr:nth-child(even) {
+    background-color: #E0FFFF;  
+}
+
+tr:hover {
+    background-color: #B0E0E6; 
+}
+
+
+.hero-image {
+    height: 100px;              
+    border-radius: 8px;         
+    transition: transform 0.2s;
+}
+
+
+.hero-image:hover {
+    transform: scale(1.1);      
+}
