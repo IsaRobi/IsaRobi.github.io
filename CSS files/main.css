@@ -9,6 +9,8 @@ body {
 
 /* Styling for all images */
 img {
+    display: block; /* Center-align images */
+    margin: 0 auto; /* Center-align images */
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
@@ -17,6 +19,8 @@ img {
 
 /* Profile picture styling */
 .profile-pic {
+    display: block;
+    margin: 0 auto;
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
@@ -25,6 +29,8 @@ img {
 
 /* Home button styling */
 .home-button {
+    display: block;
+    margin: 0 auto;
     width: 50px;
     height: auto;
     border-radius: 5px;
@@ -36,6 +42,13 @@ h1 {
     font-size: 2.5rem;
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* h2 text styling */
+h2 {
+    color: #007fff; /* Azure blue for h2 titles */
+    font-size: 2rem;
+    text-align: center;
 }
 
 /* Paragraph styling */
