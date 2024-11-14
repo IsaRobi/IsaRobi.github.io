@@ -1,23 +1,22 @@
-/* Background for the entire page */
+
 body {
-    background-color: #f9fcff; /* Very light blue */
+    background-color: #f9fcff; 
     font-family: Arial, sans-serif;
-    color: #000; /* Black text */
+    color: #000; 
     margin: 0;
     padding: 0;
 }
 
-/* Styling for all images */
 img {
-    display: block; /* Center-align images */
-    margin: 0 auto; /* Center-align images */
+    display: block; 
+    margin: 0 auto; 
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
     filter: brightness(90%);
 }
 
-/* Profile picture styling */
+
 .profile-pic {
     display: block;
     margin: 0 auto;
@@ -27,7 +26,7 @@ img {
     filter: brightness(90%);
 }
 
-/* Home button styling */
+
 .home-button {
     display: block;
     margin: 0 auto;
@@ -36,22 +35,22 @@ img {
     border-radius: 5px;
 }
 
-/* h1 text styling */
+
 h1 {
-    color: #1a73e8; /* Light blue for titles */
+    color: #1a73e8; 
     font-size: 2.5rem;
     font-weight: bold;
     text-decoration: underline;
 }
 
-/* h2 text styling */
+
 h2 {
-    color: #007fff; /* Azure blue for h2 titles */
+    color: #007fff; 
     font-size: 2rem;
     text-align: center;
 }
 
-/* Paragraph styling */
+
 p {
     line-height: 1.6;
     margin-bottom: 15px;
