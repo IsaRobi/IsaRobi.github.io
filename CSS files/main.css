@@ -1,64 +1,47 @@
 /* Background for the entire page */
 body {
-    background-color: #e6f2ff; /* Light blue for page background */
+    background-color: #f9fcff; /* Very light blue */
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #000; /* Black text */
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
-/* CSS for profile picture */
+/* Styling for all images */
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    filter: brightness(90%);
+}
+
+/* Profile picture styling */
 .profile-pic {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
-    filter: brightness(95%); /* Slight brightness adjustment */
-    display: block;
-    margin: 0 auto 20px; /* Center image */
+    filter: brightness(90%);
 }
 
-/* CSS for smaller home button */
+/* Home button styling */
 .home-button {
-    width: 50px; /* Size adjustment for button */
+    width: 50px;
     height: auto;
     border-radius: 5px;
-    display: block;
-    margin: 10px auto; /* Center the button */
 }
 
 /* h1 text styling */
 h1 {
-    color: #1a73e8; /* Bright blue for header */
+    color: #1a73e8; /* Light blue for titles */
     font-size: 2.5rem;
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
     text-decoration: underline;
 }
 
-/* Styling for paragraphs */
+/* Paragraph styling */
 p {
     line-height: 1.6;
     margin-bottom: 15px;
-    color: #005b96; /* Slightly darker blue-gray for text */
-    text-align: justify;
 }
 
-/* Styling for images in general */
-img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 10px; /* Rounded corners */
-    filter: brightness(90%);
-}
-
-/* Links styling */
-a {
-    color: #1a73e8;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #004080; /* Darker blue on hover */
-}
 
