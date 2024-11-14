@@ -1,1 +1,31 @@
+/* Background for the entire page */
+body {
+    background-color: #f5f7fa; /* Light custom color */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+    max-width: 300px; /* Set a maximum width for images */
+    border-radius: 10px; /* Rounded corners for images */
+    filter: brightness(90%); /* Darkens images slightly */
+}
+
+/* h1 text styling */
+h1 {
+    color: #1a73e8; /* Custom blue color */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Additional example styling for paragraphs */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
 
