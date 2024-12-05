@@ -1,15 +1,15 @@
-/* Background for the entire page */
+
 body {
-    background-color: #f7fbff; /* Custom light blue background using hex */
+    background-color: #f7fbff; 
     font-family: Arial, sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
-/* Styling for h1 elements */
+
 h1 {
-    color: rgb(26, 115, 232); /* Custom blue using RGB */
+    color: rgb(26, 115, 232); 
     font-size: 2.5rem;
     font-weight: bold;
     text-decoration: underline;
@@ -17,39 +17,39 @@ h1 {
     margin-top: 20px;
 }
 
-/* Styling for images */
+
 img {
     width: 100%;
     max-width: 300px;
-    border-radius: 10px; /* Adds rounded corners */
-    opacity: 0.9; /* Slight transparency */
-    filter: brightness(90%); /* Slightly darkens the image */
+    border-radius: 10px; 
+    opacity: 0.9; 
+    filter: brightness(90%); 
     display: block;
-    margin: 10px auto; /* Centers all images */
+    margin: 10px auto; 
 }
 
-/* Styling for sections */
+
 section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: white; /* White background for sections */
+    background: white; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for h2 elements */
+
 h2 {
-    color: hsl(210, 90%, 40%); /* Custom azure blue using HSL */
+    color: hsl(210, 90%, 40%); 
     text-align: center;
     margin-bottom: 15px;
     font-size: 2rem;
 }
 
-/* Footer styling */
+
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #004080; /* Dark blue footer */
+    background-color: #004080; 
     color: white;
 }
